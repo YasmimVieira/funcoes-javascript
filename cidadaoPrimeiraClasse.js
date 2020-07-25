@@ -8,7 +8,7 @@ function fun1() {}
 const func2 = function() {}
 
 //armazenar em um array
-const array = [function(a, b) { return a + b, func1, func2}]
+const array = [function(a, b) { return a + b}]
 console.log(array[0](2, 3))
 
 const obj = {}
